@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: vodafoneziggo
+  description: The VodafoneZiggo organization
+  links:
+    - url: http://www.ziggo.nl
+      title: Website
+    - url: https://vodafoneziggo.sharepoint.com/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: VodafoneZiggo
+    email: info@example.com
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: squads
+  description: A collection of all squads
+spec:
+  targets:
+    - ./larafans.yaml
