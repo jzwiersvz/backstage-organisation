@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -9,3 +10,49 @@ spec:
     displayName: technology
     picture: https://blah.com/technology
   children: []
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: guest
+spec:
+  memberOf: [ guests ]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: LaraFans
+  description: The LaraFans squad
+spec:
+  type: team
+  profile:
+    displayName: LaraFans
+    email: larafans@example.com
+    picture: https://www.google.nl/imgres?imgurl=https%3A%2F%2Fraw.githubusercontent.com%2Flaravel%2Fart%2Fmaster%2Flogo-lockup%2F5%2520SVG%2F2%2520CMYK%2F1%2520Full%2520Color%2Flaravel-logolockup-cmyk-red.svg&tbnid=-QPe522iuiTxYM&vet=12ahUKEwj-woLU1PH9AhUB8rsIHcG-BbgQMygCegUIARDkAQ..i&imgrefurl=https%3A%2F%2Fgithub.com%2Flaravel%2Fframework&docid=MTZAlLbvtJxy0M&w=800&h=296&q=laravel&ved=2ahUKEwj-woLU1PH9AhUB8rsIHcG-BbgQMygCegUIARDkAQ
+  children: [ ]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jzwiers
+spec:
+  profile:
+    displayName: Jasper Zwiers
+    email: jasper.zwiers@vodafoneziggo.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [ larafans ]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jgaria
+spec:
+  profile:
+    displayName: Jehizkia Garia
+    email: jehizkia.garia@vodafoneziggo.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [ larafans ]
