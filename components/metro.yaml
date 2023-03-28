@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: metro
+  description: Metro
+  labels:
+    phpVersion: php@8.2
+    category: incidents
+  tags:
+    - php
+spec:
+  type: service
+  lifecycle: production
+  owner: group:larafans
