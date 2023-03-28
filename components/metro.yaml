@@ -4,7 +4,6 @@ metadata:
   name: metro
   description: Metro
   labels:
-    phpVersion: php8.2
     category: incidents
   tags:
     - php
