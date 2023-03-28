@@ -7,4 +7,4 @@ spec:
   type: tribe
   # Intentional no profile for testing
   parent: vodafoneziggo
-  children: [ ]
+  children: [larafans]
