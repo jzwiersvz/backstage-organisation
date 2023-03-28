@@ -11,7 +11,7 @@ spec:
     displayName: LaraFans
     email: larafans@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
-    children: [ ]
+    children: [ it4c ]
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1

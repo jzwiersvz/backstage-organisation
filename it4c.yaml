@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: it4c
+  description: The IT4C Tribe
+spec:
+  type: tribe
+  # Intentional no profile for testing
+  parent: vodafoneziggo
+  children: [ ]

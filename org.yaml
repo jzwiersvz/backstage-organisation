@@ -14,6 +14,7 @@ spec:
     displayName: VodafoneZiggo
     email: info@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [it4c]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -22,4 +23,5 @@ metadata:
   description: A collection of all squads
 spec:
   targets:
+    - ./it4c.yaml
     - ./larafans.yaml
