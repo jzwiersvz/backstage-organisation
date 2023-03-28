@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: default
+  name: technology
+spec:
+  type: department
+  profile:
+    displayName: technology
+    picture: https://blah.com/technology
+  children: []
