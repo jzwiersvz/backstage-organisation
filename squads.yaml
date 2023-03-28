@@ -1,15 +1,15 @@
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  namespace: default
-  name: technology
-spec:
-  type: department
-  profile:
-    displayName: technology
-    picture: https://blah.com/technology
-  children: []
+#---
+#apiVersion: backstage.io/v1alpha1
+#kind: Group
+#metadata:
+#  namespace: default
+#  name: technology
+#spec:
+#  type: department
+#  profile:
+#    displayName: technology
+#    picture: https://blah.com/technology
+#  children: []
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
@@ -40,7 +40,7 @@ metadata:
   name: jzwiers
 spec:
   profile:
-    displayName: Jasper Zwiers
+    displayName: "Jasper Zwiers"
     email: jasper.zwiers@vodafoneziggo.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [ larafans ]
@@ -52,7 +52,7 @@ metadata:
   name: jgaria
 spec:
   profile:
-    displayName: Jehizkia Garia
+    displayName: "Jehizkia Garia"
     email: jehizkia.garia@vodafoneziggo.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [ larafans ]
